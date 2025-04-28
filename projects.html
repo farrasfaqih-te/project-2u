@@ -1,0 +1,101 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Projects</title>
+  <style>
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.header {
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+.column {
+  float: left;
+  padding: 10px;
+}
+.column.side {
+  width: 25%;
+}
+.column.middle {
+  width: 50%;
+}
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+p {
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 1px;
+}
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+  </style>
+  </head>
+  <body>
+<!--#NavbarSectionStart -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="./Trao-ya.png" alt="Logo" width="50" height="50"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="/home.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/projects.html">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/contacts.html">Contacts</a>
+        </li>
+      </ul>
+      <form class="d-flex mb-10 mb-lg-0">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<!-- #NavbarSectionEnd -->
+  <div class="header">
+    <h1>Project</h1>
+    <h8>How I Create This Site?</h8>
+  </div>
+
+  <div class="row">
+    <div class="column side">
+    
+    </div>
+    
+    <div class="column middle">
+      <h2>The References</h2>
+      <p>Referensi pertama yang saya gunakan tak bukan dan tak lain adalah Mata Kuliah Pemrograman 2 yang diampu oleh Bapak Rasyid sebagai dosen pengampu. 
+        Referensi kedua yang saya gunakan adalah Youtube Channel Dea Afrizal yang memberikan basic penyusunan website berbasis python yang menggunakan Bootstrap dan Thonny.
+        Referensi ketiga yang saya terapkan dalam website ini adalah course W3School yang memberikan saya berbagai 'How to' untuk menyusun kolom per kolom dari website ini.
+      </p>
+      <img src ="PPT PRG2.png" alt="PPT PRG2" width="250" height="175">
+      <img src="Dea.jpg" alt="Dea Afrizal" width="250" height="175">
+      <img src="W3School.png" alt="W3School" width="250" height="175">
+    </div>
+    
+    <div class="column side">
+    </div>
+  </div>
+</body>

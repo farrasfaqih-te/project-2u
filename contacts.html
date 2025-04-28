@@ -1,0 +1,105 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Contacts</title>
+  <style>
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.header {
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+.column {
+  float: left;
+  padding: 10px;
+}
+.column.side {
+  width: 25%;
+}
+.column.middle {
+  width: 50%;
+}
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+p {
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 1px;
+}
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+a:link, a:visited {
+  color: rgb(112, 187, 244);
+  padding: 7px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a:hover, a:active {
+  background-color: rgba(64, 223, 231, 0);
+}
+  </style>
+  </head>
+  <body>
+<!--#NavbarSectionStart -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="./Trao-ya.png" alt="Logo" width="50" height="50"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="/home.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/projects.html">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/contacts.html">Contacts</a>
+        </li>
+      </ul>
+      <form class="d-flex mb-10 mb-lg-0">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<!-- #NavbarSectionEnd -->
+  <div class="header">
+    <h1>Contacts</h1>
+    <h8>Anda bisa menghubungi saya melalui kontak ini</h8>
+  </div>
+
+  <div class="row">
+    <div class="column side">
+    
+    </div>
+    
+    <div class="column middle">
+      <p><a href="http://wa.me/+6285654781073" target="_blank">Whatsapp : +6285654781073</a>
+      <p> <a href="https://www.instagram.com/ffaqiihf?igsh=c3cxbnEwbmQ3aHR0" target="_blank">@ffaqiihf</a></p>
+    </div>
+    
+    <div class="column side">
+    </div>
+  </div>
+</body>
